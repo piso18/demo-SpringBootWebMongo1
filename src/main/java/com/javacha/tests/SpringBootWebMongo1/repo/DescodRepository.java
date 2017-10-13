@@ -21,4 +21,6 @@ public interface DescodRepository  extends PagingAndSortingRepository<Descod, In
 		@Query("{ 'tabla' : ?0, 'descripcion':{$regex:?1,$options:'i'} }") 
 		List<Descod> findByTablaAndDescripcion(Integer tabla, String descripcion);
 					
+		
+		
 }
