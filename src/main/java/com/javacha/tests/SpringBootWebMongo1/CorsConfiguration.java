@@ -18,6 +18,7 @@ public class CorsConfiguration {
             public void addCorsMappings(CorsRegistry registry) {
             	System.out.println("--cors---");
                 registry.addMapping("/**");
+		System.out.println("--cors configurado---");
             }
         };
     }
