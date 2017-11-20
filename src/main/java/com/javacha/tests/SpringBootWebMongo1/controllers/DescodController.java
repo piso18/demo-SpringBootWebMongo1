@@ -22,9 +22,9 @@ import com.javacha.tests.SpringBootWebMongo1.repo.DescodRepository;
 public class DescodController {
 
 	
-	public final static String TIPO_UNO = "uno";
-	public final static String TIPO_DOS = "dos";
-	public final static String TIPO_TRES = "tres";
+	public static final String TIPO_UNO = "uno";
+	public static final String TIPO_DOS = "dos";
+	public static final String TIPO_TRES = "tres";
 	
 	@Autowired
 	DescodRepository descodRepository;	
